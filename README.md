@@ -10,7 +10,7 @@ Para estudo
 ## Funcionalidades 
 O Projeto tem como função criar uma página de links de redes sociais  e links pessoais
 
-##tecnologias
+## Tecnologias
 
-###HTML
-###CSS
+### HTML
+### CSS
