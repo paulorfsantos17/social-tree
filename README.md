@@ -1,7 +1,7 @@
-# social-tree
+# Social Tree
 
 ## Descrição
-Porjeto apenas de estudo.
+Projeto apenas de estudo.
 Projeto desafio da rocketseat, Social-tree.
 O projeto foi feito baseado no desafio do discord da rockseat.
 Usando o desing do figma disponibilizado por eles.
