@@ -1,0 +1,97 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  --purple-light: #d1bae8;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: var(--body-bg-color);
+  color: var(--purple)
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+.container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-social{
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  margin-top: 48px;
+}
+
+.profile-image{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-radius{
+  display: flex;
+
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+}
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.name-instagram{
+  margin-top: 22px;
+  margin-bottom: 33px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.button {
+  width: 326px;
+  height: 50px;
+
+  font-weight: 600;
+
+  border: 2px  solid var(--purple);
+  border-radius: 4px;
+
+  text-align: center;
+  
+  margin-bottom: 16px;
+  padding-top: 12px;
+
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.buttons-link{
+  display: flex;
+  flex-direction: column;
+}
+
+.button:hover{
+  background-color: var(--purple);
+  color: var(--body-bg-color);
+  border: solid 2px var(--body-bg-color);
+}
+
+.link-social:hover{
+  display: flex;
+  border: 2px solid var(--purple-light);
+  border-radius: 50%;
+  padding: 4px;
+
+
+}
